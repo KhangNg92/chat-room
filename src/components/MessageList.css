@@ -1,0 +1,50 @@
+.chatroom-name {
+  margin-top: 28px;
+  padding-left: 10px;
+  height: 26px;
+  text-decoration: underline;
+  font-size:1em;
+}
+
+.newMessage {
+  position: fixed;
+  bottom: 0;
+}
+
+.messageBox {
+  font-size: 0.9em;
+}
+
+.sendButton {
+  font-size: .9em;
+}
+
+.sendButton:hover {
+  box-shadow: 2px -2px #696969;
+}
+
+.message-block {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px
+}
+
+.message-block:nth-of-type(odd){
+  background-color: #DCDCDC;
+}
+.message-username {
+  font-size: 0.75em;
+  font-weight: bold;
+
+}
+.message-content {
+  font-size: 0.75em;
+}
+
+.message-sentAt {
+  font-size: 0.75em;
+  font-style: italic;
+  color: #808080;
+  float: right;
+  margin-right: 10px;
+}

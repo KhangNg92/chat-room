@@ -1,0 +1,40 @@
+.App {
+  display: block;
+  height: 100%;
+
+}
+
+.App-header {
+  height: 50px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.25em;
+  margin: 0;
+}
+
+.room-navigation {
+  float: left;
+  list-style: none;
+  background-color: grey;
+  width: 25%;
+  height: 100%;
+  margin: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.message-list {
+  float: right;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 75%;
+
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

@@ -1,0 +1,65 @@
+.room-list {
+  font-family: avenir;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.chat-room-list {
+  list-style: none;
+  font-size: .9em;
+
+}
+
+.chat-title {
+  font-weight: bold;
+}
+
+.chat-form {
+  text-align: center;
+  font-size: .9em;
+
+}
+
+.submit-button {
+  text-align: center;
+  font-size: .75em;
+  margin: 1.5px;
+}
+
+.submit-button:hover {
+  box-shadow: 1px 1px #696969;
+
+}
+
+.room-number {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.room-number:hover{
+  text-decoration: underline;
+}
+
+.delete-room {
+  text-align: center;
+  margin-top:15px;
+}
+
+
+
+.deleteRoomButton:hover {
+  box-shadow: 2px 2px #696969;
+  color: #DC143C;
+  font-weight: bold;
+}
+
+.rename-room {
+  text-align: center;
+  margin-top:15px;
+}
+.renameRoomButton:hover {
+  box-shadow: 2px 2px #696969;
+  color: #3364FF;
+  font-weight: bold;
+}
