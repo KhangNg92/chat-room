@@ -1,4 +1,4 @@
-# 90's music audio player
+# A SPA chat box
 <img src="githubImg/chatroom.png"/>
 
 ## Description
